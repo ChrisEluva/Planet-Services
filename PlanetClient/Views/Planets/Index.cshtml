@@ -1,0 +1,20 @@
+﻿@model List<PlanetClient.Planet>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Planets</h2>
+<p>Our solar system consists of the sun, eight planets, moons, many dwarf planets (or plutoids), an asteroid belt, comets, meteors, and others. 
+   The sun is the center of our solar system; the planets, their moons, a belt of asteroids, comets, and other rocks and gas orbit the sun.
+   The following is a list of planets and their distance from the sun.</p>
+
+<ol>
+    @foreach (var item in Model)
+    {
+        <li>@string.Format("{0} {1}", item.Name, item.DistanceFromSun)</li>
+        
+    }
+
+</ol>
+
