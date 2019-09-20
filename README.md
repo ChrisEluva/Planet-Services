@@ -19,3 +19,6 @@ This acts a basic client that calls the Web API using the getasync method and di
 To Run :
 Please run Planetservices first and then run PlanetClient. The API endpoint in PlanetsController (PlanetClient) which is calling PlanetServices needs to be updated to the appropriate port number for the solution to work as expected.
 
+
+TODO : 
+An important aspect of any application are its tests. This needs completing. 
